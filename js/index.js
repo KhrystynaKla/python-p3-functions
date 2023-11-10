@@ -54,3 +54,8 @@ function halve(number) {
 
   return number / 2;
 }
+
+if isinstance(value, (int, float)):
+    print("The value is a number.")
+else:
+    print("The value is not a number.")
